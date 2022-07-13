@@ -48,3 +48,21 @@ login(username, password);
 ```
 
 Mais uma opção é você identificar de qual linguagem você está referenciando aquele bloco de código, no exemplo acima temos a adição do nome `javascript` após os três crases do início, o markdown irá renderizar conforme o padrão de marcação visual do código javascript.
+
+## Example in block with indentation
+
+```
+|--...
+|--build/
+|  |--ios/
+|  |--android/
+|--docsite/ *bootstrap *open-props
+|--src/
+|  |--themes/
+|     |--light.xx
+|     |--dark.xx
+|  |--tokens/
+|     |--color.xx
+|     |--typography.xx
+|     |--sizes.xx
+|     |...
